@@ -12,9 +12,9 @@ class loginController extends Controller
     public function index()
     {
         $fb = new FacebookApp([
-            'app_id' => '281878928872132',
-            'app_secret' => 'bc517dd890646daa479c0a92f057ac02',
-            'default_graph_version' => 'v2.8',
+            'app_id' => 'SEU_ID_DO_APP',
+            'app_secret' => 'SUA_PALAVRA_SECRETA',
+            'default_graph_version' => 'VERSA_DO_SEUAPP (v2.8)',
             //'default_access_token' => '{access-token}', // opcional
         ]);
         /* Setar a view de login */
