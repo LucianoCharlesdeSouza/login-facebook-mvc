@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+    font-family: sans-serif;
+}.login-box{
+     width: 320px;
+     height:430px;
+     background-color: rgba(0,0,0,0.5);
+     color: #fff;
+     top:50%;
+     left:50%;
+     position: absolute;
+     -webkit-transform: translate(-50%,-50%);
+     -moz-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+     -o-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+     padding: 30px;
+ }
+ h1{
+     margin:0;
+     padding: 0 0 20px;
+     text-align: center;
+     font-size:30px;
+     color: #39dc79;
+ }
+ .login-box p{
+     margin:0;
+     padding:0;
+     font-weight: bold;
+ }
+ .login-box input{
+     width: 100%;
+     margin-bottom: 20px;
+ }
+ .login-box input[type="text"],
+ input[type="email"],
+ input[type="password"]{
+     border:none;
+     border-bottom:  1px solid #fff;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color: #fff;
+     font-size:16px;
+ }
+ ::placeholder{
+     color: #fff;
+     font-size:0.875em;
+ }
+ .login-box button{
+     width: 100%;
+     border:none;
+     outline: none;
+     height:40px;
+     background-color: #1c8adb;
+     color: #fff;
+     font-size: 18px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     margin-bottom:20px;
+ }
+.login-box button:hover{
+    cursor: pointer;
+    background-color: #39dc79;
+    color: #000;
+}
+.create_login{
+    text-align: center;
+    font-size:14px;
+    color: #fff;
+}
+.create_login h4{
+    margin-top: -10px;
+    font-size:14px;
+}
+.create_login a{
+    text-decoration: none;
+    color: #fff;
+}
+.create_login a:hover{
+    color: #39dc79;
+}
+.login-facebook{
+    margin-top: 10px;
+}
+.boxerror{
+    position: fixed;
+    right: -320px;
+    top: 60px;
+    width: 300px;
+    max-width: 80%;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    z-index: 9999;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: msg_error;
+    animation-duration: 2s;
+    display: none;
+
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes msg_error {
+    0%   {right: -320px;top:60px}
+    25%   {right: 50px;top:60px}
+    50%   {right: 50px;top:60px}
+    75%   {right: 50px;top:60px}
+    100%   {right: -320px;top:60px}
+}
+/* Standard syntax */
+@keyframes msg_error {
+    0%   {right: -320px;top:60px}
+    25%   {right: 50px;top:60px}
+    50%   {right: 50px;top:60px}
+    75%   {right: 50px;top:60px}
+    100%   {right: -320px;top:60px}
+}
+

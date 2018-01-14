@@ -1,0 +1,54 @@
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.icon-size
+{
+    font-size: 87px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-box-shadow: -1px 3px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 25px 0px rgba(0,0,0,0.75);
+}
+.boxerror{
+    position: fixed;
+    right: -320px;
+    top: 60px;
+    width: 300px;
+    max-width: 80%;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    z-index: 9999;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: msg_error;
+    animation-duration: 2s;
+    display: none;
+
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes msg_error {
+    0%   {right: -320px;top:60px}
+    25%   {right: 50px;top:60px}
+    50%   {right: 50px;top:60px}
+    75%   {right: 50px;top:60px}
+    100%   {right: -320px;top:60px}
+}
+/* Standard syntax */
+@keyframes msg_error {
+    0%   {right: -320px;top:60px}
+    25%   {right: 50px;top:60px}
+    50%   {right: 50px;top:60px}
+    75%   {right: 50px;top:60px}
+    100%   {right: -320px;top:60px}
+}
