@@ -9,7 +9,7 @@ use App\Core\Model,
 
 class Users extends Model {
 
-    private $Table = "usuarios_face";
+    private $Table = "usuarios";
     private $Result = null;
 
     public function getResult() {
